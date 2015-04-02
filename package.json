@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-mocha-assert",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -11,11 +11,15 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanKingston/ember-cli-mocha-assert.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "homepage": "https://github.com/jonathanKingston/ember-cli-mocha-assert",
+  "author": "Jonathan Kingston",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
@@ -32,11 +36,10 @@
     "ember-export-application-global": "^1.0.2"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "chai",
+    "blueprints"
   ],
-  "dependencies": {
-    "ember-cli-babel": "^4.0.0"
-  },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   }
